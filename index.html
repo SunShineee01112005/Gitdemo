@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center" >
+                    <div class="col-md-2" style="margin-right: 0px;">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="https://upload.wikimedia.org/wikipedia/vi/5/5a/Logo_tr%C6%B0%E1%BB%9Dng_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_C%C3%B4ng_ngh%E1%BB%87_th%C3%B4ng_tin_v%C3%A0_Truy%E1%BB%81n_th%C3%B4ng_Vi%E1%BB%87t_-_H%C3%A0n%2C_%C4%90%E1%BA%A1i_h%E1%BB%8Dc_%C4%90%C3%A0_N%E1%BA%B5ng.svg" alt="DAVIES BRAND">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!--<form class="search-form">
+                            <input type="search" placeholder="Tìm kiếm sản phẩm">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>-->
+                        <form class="d-flex" role="search" ; flex-grow: 1;>
+                            <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" style="flex-grow: 1;">
+                            <button class="btn btn-outline-success" type="submit" style="width: 40px; height: 40px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://cdn-icons-png.freepik.com/512/5918/5918268.png" alt="Search Icon" style="width: 40px; height: 40px; object-fit: contain;">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-5 text-end">
+                        <div class="header-icons" style="display: flex; margin-right: 5px; align-items: center; justify-content: space-between; flex-wrap: nowrap;">
+                            <span class="location" style="font-size: 15px;">Địa chỉ: 450 Trần Đại Nghĩa( 7:00 - 22:00 )</span>
+                            <a href="/account" class="account" >Đăng ký/Đăng nhập</a>
+                            <button class="btn btn-outline-success" style="background-color: transparent; width: 15px; height: 15px; border: 0px;margin-left: 20px; display: flex; align-items: center; justify-content: center;">
+                                <img src="https://d3sxshmncs10te.cloudfront.net/icon/free/svg/527964.svg?token=eyJhbGciOiJoczI1NiIsImtpZCI6ImRlZmF1bHQifQ__.eyJpc3MiOiJkM3N4c2htbmNzMTB0ZS5jbG91ZGZyb250Lm5ldCIsImV4cCI6MTcxNjgzODI4NiwicSI6bnVsbCwiaWF0IjoxNzE2NTc5MDg2fQ__.39734736c7316760182d5aa06caf5719f11585824a46f6eecb1aef04b3622be0" alt="Search Icon" style="width: 40px; height: 40px; object-fit: contain;">
+                            </button>
+                        <!--<form class="d-flex" role="search" ; flex-grow: 1;>
+                                <input class="form-control me-2" type="search" placeholder="Tìm kiếm sản phẩm" aria-label="Search" style="flex-grow: 1;">
+                                <button class="btn btn-outline-success" type="submit" style="width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
+                                    <img src="https://cdn-icons-png.freepik.com/512/5918/5918268.png" alt="Search Icon" style="width: 30px; height: 30px; object-fit: contain;">
+                                </button>
+                            </form> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">TRANG CHỦ </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">TẤT CẢ SẢN PHẨM </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VKU ORIGINAL
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Áo thun nam </a></li>
+                                <li><a class="dropdown-item" href="#">Áo khoác nam </a></li>
+                                <li><a class="dropdown-item" href="#">Hoodie / SWE nam </a></li>
+                                <li><a class="dropdown-item" href="#">Quần nam </a></li>
+                                <li><a class="dropdown-item" href="#">Ví nam </a></li>
+                                <li><a class="dropdown-item" href="#">Balo nam </a></li>
+                                <li><a class="dropdown-item" href="#">Phụ kiện nam </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                VKU BRAND
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Áo thun nữ </a></li>
+                                <li><a class="dropdown-item" href="#">Áo croptop </a></li>
+                                <li><a class="dropdown-item" href="#">Hoodie / Sweater nữ </a></li>
+                                <li><a class="dropdown-item" href="#">Áo khoác nữ </a></li>
+                                <li><a class="dropdown-item" href="#">Phụ kiện nữ </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/shop-local-brand-davies">BẢNG SIZE </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/shop-local-brand-davies">HỆ THỐNG CỬA HÀNG </a>
+                        </li>
+                        <li class="nav-item dropdown yamm-fw ega-dropdown-menu li-ega-menu-no-mega">
+                            <ul class="dropdown-menu ega-menu-no-mega">
+                                <li class="dropdown-submenu-2"><a title="Áo thun nam" href="/ao-thun-nam-local-brand-davies-real" class="ega-sub-menu-a">Áo thun nam</a></li>
+                                <li class="dropdown-submenu-2"><a title="Áo khoác nam" href="/ao-khoac-local-brand-nam-davies" class="ega-sub-menu-a">Áo khoác nam</a></li>
+                                <li class="dropdown-submenu-2"><a title="Hoodie / SWE nam" href="/ao-hoddie-sweater-local-brand-nam" class="ega-sub-menu-a">Hoodie / SWE nam</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section section-barcode">
+        <div class="container" style="margin-bottom: 0; border: 0;background-color: #fff;">
+            <div class="banner" style="margin: 0; border: 0;">
+                <div class="row" style="margin: 0; border: 0;">
+                    <div class="col-12" style="margin: 0; border: 0;">
+                        <img src="images/123.png" alt="Banner Image" class="img-fluid" style="max-width: auto; height: auto; object-fit: contain;margin: 0;">
+                    </div>
+                    <div class="col-2">
+                        <div class="triangle-down"></div>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <section class="section section-bg-scroll one">
+        <div class="container">
+            <div class="list-banner w-60"> <!--hiển thị danh sách banner hoặc nội dung banner với chiều rộng là 60% so với phần tử cha của nó-->
+                <div class="coll-banner left">
+                    <div class="banner first">
+                        <a href="https://doublebadstudio.vn/collections/lazy-think" class="aspect-ratio">
+                            <img class="lazyload image--fade-in" data-src="images/anh1.webp" alt="">
+                        </a>    
+                    </div>
+                    <div class="banner">
+                        <a href="https://doublebadstudio.vn/collections/lazy-think" class="aspect-ratio">
+                            <img class="lazyload image--fade-in" data-src="images/anh3.webp" alt="">
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="coll-banner right">
+                    <div class="banner">
+                        <a href="images/anh4.webp" class="aspect-ratio">
+                            <img class="lazyload image--fade-in" data-src="images/anh4.webp" alt="">
+                        </a>	                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-banner one">
+        <div class="container">
+            <div class="list-banner w-80">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6">
+                        <div class="banner">
+                            <a href="images/anh5.webp" class="aspect-ratio">
+                                <img class="lazyload image--fade-in" data-src="images/anh5.webp" >
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6">
+                        <div class="banner">
+                            <a href="images/anh6.webp" class="aspect-ratio">
+                                <img class="lazyload image--fade-in" data-src="images/anh6.webp" alt="LAZY*THINK">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6">
+                        <div class="banner">
+                            
+                            <a href="images/anh7.webp" class="aspect-ratio">
+                                <img class="lazyload image--fade-in" data-src="images/anh7.webp" alt="LAZY*THINK">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-6 col-xl-6">
+                        <div class="banner">
+                            <a href="images/anh8.webp" class="aspect-ratio">
+                                <img class="lazyload image--fade-in" data-src="images/anh8.webp" alt="LAZY*THINK">
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-bg-scroll two">
+        <div class="container">
+            <div class="list-banner w-85">
+                <div class="coll-banner left">
+                    <div class="banner">
+                        <a href="https://doublebadstudio.vn/collections/lazy-think" class="aspect-ratio">
+                            <img class="lazyload image--fade-in" data-src="images/anh9.webp" alt="">
+                            <div class="image--cap">
+                                <p style="color: #fff">FALL / WINTER 2023</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>  
+                <div class="coll-banner right">
+                    <div class="banner">
+                        <a href="https://doublebadstudio.vn/collections/lazy-think" class="aspect-ratio">
+                            <img class="lazyload image--fade-in" data-src="images/anh10.webp" alt="">
+                            <div class="image--cap">
+                                <p style="color: #fff">FALL / WINTER 2023</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="section section-banner two">
+        <div class="banner">
+            <a href="https://doublebadstudio.vn/collections/lazy-think" class="aspect-ratio">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="">
+                    <source media="(min-width: 768px)" srcset="https://file.hstatic.net/1000351433/file/fff_50618d85031e421d8413bd1fbdd8bfa3.png">
+                    <img data-src="https://file.hstatic.net/1000351433/file/fff_50618d85031e421d8413bd1fbdd8bfa3.png" class="lazyload" alt="" >
+                </picture>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="section section-collection bc-rcm-best" id="collection-best">
+        <div class="container">
+            <div class="s-title">
+                <h2 class="row">
+                    <a class="col-4" href="javascript:void(0)" style="margin-right: 0; margin-left: 25px;">BEST-SELLING ITEMS</a>
+                    <div class="col-2 " style="margin-left: 10px;">
+                        <div class="triangle-down2" style="margin-left: -30px"></div>
+                    </div>
+                </h2>
+            </div>
+        <!--<div class="s-content">
+                <div class="swiper-container swiper-styled2 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events" >
+                    <div class="swiper-wrapper" id="swiper-wraper-abc123" aria-live="polite" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 10" style="width: 352.917px; margin-right: 20px;">
+                            <div class="product-loop" data-tooltip="true" data-product-title="STOP BOXY TEE - BLACK" data-product-id="100" data-ptoduct-url="images/product1.webp">
+                                <div class="product-loop_image">
+                                    <a href="images/product1.webp" title="STOP THINK BOXY TEE - BLACK" class>
+                                        <img class="lazyload image--fade-in" data-src="images/product1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-loop_detail text-center">
+                                    <h3 class="font-weight-bold">STOP THINK BOXY TEE - BLACK </h3>
+                                    <div class="product-loop_price">
+                                        <span class="price text-uppercase font-weight-bold">400 000 VND </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-silde-next" role="group" aria-label="2 / 10" style="width: 352.917px; margin-right: 20px">
+                            <div class="product-loop" data-tooltip="true" data-product-title="COFFEE COLOUR BAD & LAZY BABY TEE" data-product-id="101" data-ptoduct-url="images/product1.webp">
+                                <div class="product-loop_image">
+                                    <a href="images/product1.webp" title="COFFEE COLOUR BAD & LAZY BABY TEE" class>
+                                        <img class="lazyload image--fade-in" data-src="images/product1.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="product-loop_detail text-center">
+                                    <h3 class="font-weight-bold">COFFEE COLOUR BAD & LAZY BABY TEE</h3>
+                                    <div class="product-loop_price">
+                                        <span class="price text-uppercase font-weight-bold">400 000 VND </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="row">
+                <div class="swiper-button-prev col-1">
+                    <div class="triangle-left" style="margin-left: 5px; margin-right: 0;"></div>
+                        </div>
+                            <div class="swiper-button-next col-1">
+                                <div class="triangle-right" style="margin-left: -40px;"></div>
+                            </div>
+                        </div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+    <section class="section section-banner three" style="margin-top: 20px;">
+        <div class="banner">
+            <a href="">
+                <img src="images/anh11.webp" alt="">
+            </a>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" async></script>
+</body>
+
+</html>
